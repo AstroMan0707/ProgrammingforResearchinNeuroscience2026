@@ -1,4 +1,4 @@
-* NumPy in a linear algebra library
+git * NumPy in a linear algebra library
 * NumPy arrays are how we will use this library
 * NumPy arrays can be: vectors or matricies
     * Vectors are 1-d arrays

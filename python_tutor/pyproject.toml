@@ -15,9 +15,19 @@ dependencies = [
 <<<<<<< HEAD
     "google-api-core>=2.29.0",
 =======
+<<<<<<< HEAD
 >>>>>>> bbf1a83 (created functional rag agent python tutor)
 =======
+<<<<<<< HEAD
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+<<<<<<< HEAD
+    "google-api-core>=2.29.0",
+=======
+>>>>>>> bbf1a83 (created functional rag agent python tutor)
+>>>>>>> 915470d (created functional rag agent python tutor)
+>>>>>>> 63f0472 (created functional rag agent python tutor)
+>>>>>>> c198b14 (created functional rag agent python tutor)
 ]
 
 [tool.uv]
@@ -31,8 +41,19 @@ requires = ["hatchling"]
 <<<<<<< HEAD
 build-backend = "hatchling.build"
 =======
+<<<<<<< HEAD
 build-backend = "hatchling.build"
 >>>>>>> bbf1a83 (created functional rag agent python tutor)
 =======
+<<<<<<< HEAD
 build-backend = "hatchling.build"
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+<<<<<<< HEAD
+build-backend = "hatchling.build"
+=======
+build-backend = "hatchling.build"
+>>>>>>> bbf1a83 (created functional rag agent python tutor)
+>>>>>>> 915470d (created functional rag agent python tutor)
+>>>>>>> 63f0472 (created functional rag agent python tutor)
+>>>>>>> c198b14 (created functional rag agent python tutor)

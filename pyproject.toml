@@ -14,6 +14,7 @@ dependencies = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 46cbb68 (created functional rag agent python tutor)
 =======
@@ -26,20 +27,32 @@ dependencies = [
 >>>>>>> bf948f8 (created functional rag agent python tutor)
 =======
 =======
+>>>>>>> 6f61978 (Week 3 Exercise updated Jan 28th)
+=======
 >>>>>>> b5e386d (created functional rag agent python tutor)
 =======
 >>>>>>> 63f0472 (created functional rag agent python tutor)
+<<<<<<< HEAD
 >>>>>>> c198b14 (created functional rag agent python tutor)
+=======
+=======
+>>>>>>> 99b7156 (Week 3 Exercise updated Jan 28th)
+>>>>>>> 6f61978 (Week 3 Exercise updated Jan 28th)
     "matplotlib>=3.10.8",
     "numpy>=2.4.1",
     "pandas>=2.3.3",
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
 >>>>>>> 63f0472 (created functional rag agent python tutor)
+=======
+=======
+>>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
+>>>>>>> 99b7156 (Week 3 Exercise updated Jan 28th)
     "datetime>=6.0",
     "google-genai>=1.60.0",
     "ipykernel>=7.1.0",
@@ -87,6 +100,9 @@ members = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 99b7156 (Week 3 Exercise updated Jan 28th)
 >>>>>>> 6604da8 (created functional rag agent python tutor)
 =======
 =======
@@ -95,6 +111,7 @@ members = [
     "pandas>=2.3.3",
 >>>>>>> fbd2f27 (Adding outstanding files from class Jan 27th)
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     "matplotlib>=3.10.8",
@@ -133,5 +150,10 @@ members = [
 =======
 >>>>>>> 6604da8 (created functional rag agent python tutor)
 >>>>>>> 63f0472 (created functional rag agent python tutor)
+<<<<<<< HEAD
 >>>>>>> c198b14 (created functional rag agent python tutor)
+=======
+=======
+>>>>>>> 99b7156 (Week 3 Exercise updated Jan 28th)
+>>>>>>> 6f61978 (Week 3 Exercise updated Jan 28th)
 ]

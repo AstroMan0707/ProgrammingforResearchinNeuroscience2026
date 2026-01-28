@@ -1,0 +1,8 @@
+# Python Research Tutor 2026
+
+Welcome to the automated tutoring agent for the Week 3 Materials.
+
+## ⚙️ Initial Setup
+Run this command once to set up your environment:
+```bash
+chmod +x setup_environment.sh && ./setup_environment.sh

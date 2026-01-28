@@ -12,11 +12,14 @@ dependencies = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 46cbb68 (created functional rag agent python tutor)
 =======
 >>>>>>> dc9e4ac (Adding outstanding files from class Jan 27th)
 =======
+=======
+>>>>>>> 7e1a672 (Adding outstanding files from class Jan 27th)
 =======
 >>>>>>> b5e386d (created functional rag agent python tutor)
 >>>>>>> bf948f8 (created functional rag agent python tutor)
@@ -99,5 +102,13 @@ members = [
 =======
 >>>>>>> 6604da8 (created functional rag agent python tutor)
 >>>>>>> b5e386d (created functional rag agent python tutor)
+<<<<<<< HEAD
 >>>>>>> bf948f8 (created functional rag agent python tutor)
+=======
+=======
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.1",
+    "pandas>=2.3.3",
+>>>>>>> c77dcf7 (Adding outstanding files from class Jan 27th)
+>>>>>>> 7e1a672 (Adding outstanding files from class Jan 27th)
 ]

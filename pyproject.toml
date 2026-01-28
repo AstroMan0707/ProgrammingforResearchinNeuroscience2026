@@ -7,6 +7,7 @@ requires-python = ">=3.13"
 dependencies = [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "matplotlib>=3.10.8",
     "numpy>=2.4.1",
     "pandas>=2.3.3",
@@ -37,4 +38,9 @@ members = [
     "pandas>=2.3.3",
 >>>>>>> fbd2f27 (Adding outstanding files from class Jan 27th)
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
+=======
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.1",
+    "pandas>=2.3.3",
+>>>>>>> 15c76f8 (Adding outstanding files from class Jan 27th)
 ]

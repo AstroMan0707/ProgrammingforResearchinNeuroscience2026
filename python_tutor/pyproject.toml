@@ -11,6 +11,13 @@ dependencies = [
     "matplotlib>=3.8.0",
     "seaborn>=0.13.0",
     "pandas>=2.1.0",
+<<<<<<< HEAD
+<<<<<<< HEAD
+    "google-api-core>=2.29.0",
+=======
+>>>>>>> bbf1a83 (created functional rag agent python tutor)
+=======
+>>>>>>> 80cb1b4 (created functional rag agent python tutor)
 ]
 
 [tool.uv]
@@ -22,7 +29,6 @@ package = false
 requires = ["hatchling"]
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 build-backend = "hatchling.build"
 =======
 <<<<<<< HEAD
@@ -30,3 +36,4 @@ build-backend = "hatchling.build"
 >>>>>>> bbf1a83 (created functional rag agent python tutor)
 =======
 build-backend = "hatchling.build"
+>>>>>>> 80cb1b4 (created functional rag agent python tutor)

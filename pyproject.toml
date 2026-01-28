@@ -9,6 +9,9 @@ dependencies = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
     "matplotlib>=3.10.8",
     "numpy>=2.4.1",
     "pandas>=2.3.3",
@@ -32,7 +35,11 @@ dependencies = [
     "matplotlib>=3.10.8",
     "numpy>=2.4.1",
     "pandas>=2.3.3",
+<<<<<<< HEAD
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
     "python-dotenv>=1.2.1",
     "seaborn>=0.13.2",
 ]
@@ -51,10 +58,14 @@ members = [
 >>>>>>> fbd2f27 (Adding outstanding files from class Jan 27th)
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
     "matplotlib>=3.10.8",
     "numpy>=2.4.1",
     "pandas>=2.3.3",
 >>>>>>> 15c76f8 (Adding outstanding files from class Jan 27th)
 =======
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 ]

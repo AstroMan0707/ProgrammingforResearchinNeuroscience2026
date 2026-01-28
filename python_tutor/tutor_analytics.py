@@ -77,6 +77,7 @@ def generate_visualizations(file_path: str = "query_history.jsonl"):
         ax2.set_title("Cumulative Concept Engagement", pad=20, fontweight='bold', fontsize=20)
         ax2.set_ylabel("Total Student Mentions", fontsize=16)
         ax2.set_xlabel("Python Concept", fontsize=16)
+        ax2.set_xticklabels(ax2.get_xticklabels(), rotation=45, ha='center')
     else:
         ax2.text(0.5, 0.5, "No target keywords detected.", ha='center')
 

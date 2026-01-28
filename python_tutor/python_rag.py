@@ -6,18 +6,25 @@ from google import genai
 from history_manager import validate_and_repair_history
 from tutor_stats import display_cli_metrics
 <<<<<<< HEAD
+<<<<<<< HEAD
 from google.api_core import exceptions
 =======
 >>>>>>> bbf1a83 (created functional rag agent python tutor)
+=======
+>>>>>>> 80cb1b4 (created functional rag agent python tutor)
 
 dotenv.load_dotenv()
 
 class PythonTutor:
 <<<<<<< HEAD
+<<<<<<< HEAD
     def __init__(self, kb_path: str = 'python_basics.md'):
 =======
     def __init__(self, kb_path: str = 'python_basics.txt'):
 >>>>>>> bbf1a83 (created functional rag agent python tutor)
+=======
+    def __init__(self, kb_path: str = 'python_basics.txt'):
+>>>>>>> 80cb1b4 (created functional rag agent python tutor)
         self.client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
         self.model_id = "gemini-2.0-flash"
         self.history_file = "query_history.jsonl"
@@ -35,6 +42,7 @@ class PythonTutor:
     @property
     def system_instruction(self) -> str:
 <<<<<<< HEAD
+<<<<<<< HEAD
         role_context = """
 Role: 
 - Python tutor for neuroscientist researchers. 
@@ -43,11 +51,14 @@ Role:
 - Aim for responses under 400 tokens."
 """
         return f"Context: {self.knowledge_base}\n{role_context}"
+=======
+        return f"Context: {self.knowledge_base}\nRole: Python tutor for researchers. Explain the 'why'."
+>>>>>>> 80cb1b4 (created functional rag agent python tutor)
 
     def ask(self, query: str) -> str:
         elapsed = round((time.time() - self.start_time) / 60, 2)
-        active_history = self.conversation_history[-4:]  # Last 4 exchanges (keeps context manageable and prevents rate limits for free tier)
         self.conversation_history.append({"role": "user", "parts": [{"text": query}]})
+<<<<<<< HEAD
 
         max_retries = 5
         retry_delay = 5
@@ -62,7 +73,10 @@ Role:
 
                 # tutor_text = response.text
                 # self.conversation_history.append({"role": "model", "parts": [{"text": tutor_text}]})
+=======
+>>>>>>> 552df45 (created functional rag agent python tutor)
         
+<<<<<<< HEAD
                 tutor_text = response.text
                 self.conversation_history.append({"role": "model", "parts": [{"text": tutor_text}]})
 
@@ -96,6 +110,8 @@ Role:
         elapsed = round((time.time() - self.start_time) / 60, 2)
         self.conversation_history.append({"role": "user", "parts": [{"text": query}]})
         
+=======
+>>>>>>> 80cb1b4 (created functional rag agent python tutor)
         response = self.client.models.generate_content(
             model=self.model_id,
             contents=self.conversation_history,
@@ -117,7 +133,10 @@ Role:
         with open(self.history_file, 'a') as f:
             f.write(json.dumps(entry) + '\n')
         return tutor_text
+<<<<<<< HEAD
 >>>>>>> bbf1a83 (created functional rag agent python tutor)
+=======
+>>>>>>> 80cb1b4 (created functional rag agent python tutor)
 
 def main():
     tutor = PythonTutor()

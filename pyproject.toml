@@ -8,6 +8,7 @@ dependencies = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "matplotlib>=3.10.8",
     "numpy>=2.4.1",
     "pandas>=2.3.3",
@@ -22,6 +23,16 @@ dependencies = [
     "matplotlib>=3.10.8",
     "numpy>=2.4.1",
     "pandas>=2.3.3",
+=======
+    "datetime>=6.0",
+    "google-genai>=1.60.0",
+    "ipykernel>=7.1.0",
+    "ipython>=9.9.0",
+    "jupyterlab>=4.5.2",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.1",
+    "pandas>=2.3.3",
+>>>>>>> 80cb1b4 (created functional rag agent python tutor)
     "python-dotenv>=1.2.1",
     "seaborn>=0.13.2",
 ]
@@ -29,6 +40,7 @@ dependencies = [
 [tool.uv.workspace]
 members = [
     "python_tutor",
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6604da8 (created functional rag agent python tutor)
 =======
@@ -43,4 +55,6 @@ members = [
     "numpy>=2.4.1",
     "pandas>=2.3.3",
 >>>>>>> 15c76f8 (Adding outstanding files from class Jan 27th)
+=======
+>>>>>>> 80cb1b4 (created functional rag agent python tutor)
 ]

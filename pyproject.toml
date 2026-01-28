@@ -6,10 +6,13 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
 <<<<<<< HEAD
+<<<<<<< HEAD
     "matplotlib>=3.10.8",
     "numpy>=2.4.1",
     "pandas>=2.3.3",
 =======
+=======
+>>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
     "datetime>=6.0",
     "google-genai>=1.60.0",
     "ipykernel>=7.1.0",
@@ -25,5 +28,13 @@ dependencies = [
 [tool.uv.workspace]
 members = [
     "python_tutor",
+<<<<<<< HEAD
 >>>>>>> 6604da8 (created functional rag agent python tutor)
+=======
+=======
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.1",
+    "pandas>=2.3.3",
+>>>>>>> fbd2f27 (Adding outstanding files from class Jan 27th)
+>>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 ]

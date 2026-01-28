@@ -5,7 +5,25 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+<<<<<<< HEAD
     "matplotlib>=3.10.8",
     "numpy>=2.4.1",
     "pandas>=2.3.3",
+=======
+    "datetime>=6.0",
+    "google-genai>=1.60.0",
+    "ipykernel>=7.1.0",
+    "ipython>=9.9.0",
+    "jupyterlab>=4.5.2",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.1",
+    "pandas>=2.3.3",
+    "python-dotenv>=1.2.1",
+    "seaborn>=0.13.2",
+]
+
+[tool.uv.workspace]
+members = [
+    "python_tutor",
+>>>>>>> 6604da8 (created functional rag agent python tutor)
 ]

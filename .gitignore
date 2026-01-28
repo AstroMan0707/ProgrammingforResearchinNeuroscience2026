@@ -1,0 +1,42 @@
+# Personal files added by students (not original course materials)
+# Only track the original course files: numpy.ipynb, numpy.md, data.csv, etc.
+
+# Personal Python files
+Week2_Materials/main.py
+Week2_Materials/README.md
+Week2_Materials/pyproject.toml
+
+# Week1 personal additions (add as needed)
+Week1_Materials/main.py
+Week1_Materials/README.md
+Week1_Materials/pyproject.toml
+
+# InClass personal additions
+InClass_Exercises/main.py
+InClass_Exercises/README.md
+InClass_Exercises/pyproject.toml
+
+# Python environment
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

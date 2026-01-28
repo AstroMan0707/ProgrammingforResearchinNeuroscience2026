@@ -5,11 +5,18 @@ requires-python = ">=3.13"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 =======
 =======
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 resolution-markers = [
     "python_full_version >= '3.14' and sys_platform == 'win32'",
     "python_full_version >= '3.14' and sys_platform == 'emscripten'",
@@ -297,9 +304,13 @@ wheels = [
 >>>>>>> fbd2f27 (Adding outstanding files from class Jan 27th)
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 15c76f8 (Adding outstanding files from class Jan 27th)
 =======
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 
 [[package]]
 name = "contourpy"
@@ -361,11 +372,18 @@ wheels = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 =======
 =======
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 name = "cryptography"
 version = "46.0.3"
 source = { registry = "https://pypi.org/simple" }
@@ -430,9 +448,13 @@ wheels = [
 >>>>>>> fbd2f27 (Adding outstanding files from class Jan 27th)
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 15c76f8 (Adding outstanding files from class Jan 27th)
 =======
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 name = "cycler"
 version = "0.12.1"
 source = { registry = "https://pypi.org/simple" }
@@ -446,11 +468,18 @@ wheels = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 =======
 =======
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 name = "datetime"
 version = "6.0"
 source = { registry = "https://pypi.org/simple" }
@@ -534,9 +563,13 @@ wheels = [
 >>>>>>> fbd2f27 (Adding outstanding files from class Jan 27th)
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 15c76f8 (Adding outstanding files from class Jan 27th)
 =======
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 name = "fonttools"
 version = "4.61.1"
 source = { registry = "https://pypi.org/simple" }
@@ -574,11 +607,18 @@ wheels = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 =======
 =======
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 name = "fqdn"
 version = "1.5.1"
 source = { registry = "https://pypi.org/simple" }
@@ -588,6 +628,25 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
+=======
+name = "google-api-core"
+version = "2.29.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "google-auth" },
+    { name = "googleapis-common-protos" },
+    { name = "proto-plus" },
+    { name = "protobuf" },
+    { name = "requests" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/0d/10/05572d33273292bac49c2d1785925f7bc3ff2fe50e3044cf1062c1dde32e/google_api_core-2.29.0.tar.gz", hash = "sha256:84181be0f8e6b04006df75ddfe728f24489f0af57c96a529ff7cf45bc28797f7", size = 177828, upload-time = "2026-01-08T22:21:39.269Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/77/b6/85c4d21067220b9a78cfb81f516f9725ea6befc1544ec9bd2c1acd97c324/google_api_core-2.29.0-py3-none-any.whl", hash = "sha256:d30bc60980daa36e314b5d5a3e5958b0200cb44ca8fa1be2b614e932b75a3ea9", size = 173906, upload-time = "2026-01-08T22:21:36.093Z" },
+]
+
+[[package]]
+>>>>>>> c6a8249 (created functional rag agent python tutor)
 name = "google-auth"
 version = "2.48.0"
 source = { registry = "https://pypi.org/simple" }
@@ -628,6 +687,21 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
+=======
+name = "googleapis-common-protos"
+version = "1.72.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "protobuf" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/e5/7b/adfd75544c415c487b33061fe7ae526165241c1ea133f9a9125a56b39fd8/googleapis_common_protos-1.72.0.tar.gz", hash = "sha256:e55a601c1b32b52d7a3e65f43563e2aa61bcd737998ee672ac9b951cd49319f5", size = 147433, upload-time = "2025-11-06T18:29:24.087Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c4/ab/09169d5a4612a5f92490806649ac8d41e3ec9129c636754575b3553f4ea4/googleapis_common_protos-1.72.0-py3-none-any.whl", hash = "sha256:4299c5a82d5ae1a9702ada957347726b167f9f8d1fc352477702a1e851ff4038", size = 297515, upload-time = "2025-11-06T18:29:13.14Z" },
+]
+
+[[package]]
+>>>>>>> c6a8249 (created functional rag agent python tutor)
 name = "h11"
 version = "0.16.0"
 source = { registry = "https://pypi.org/simple" }
@@ -986,9 +1060,13 @@ wheels = [
 >>>>>>> fbd2f27 (Adding outstanding files from class Jan 27th)
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 15c76f8 (Adding outstanding files from class Jan 27th)
 =======
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 name = "kiwisolver"
 version = "1.4.9"
 source = { registry = "https://pypi.org/simple" }
@@ -1052,11 +1130,18 @@ wheels = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 =======
 =======
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 name = "lark"
 version = "1.3.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1126,9 +1211,13 @@ wheels = [
 >>>>>>> fbd2f27 (Adding outstanding files from class Jan 27th)
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 15c76f8 (Adding outstanding files from class Jan 27th)
 =======
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 name = "matplotlib"
 version = "3.10.8"
 source = { registry = "https://pypi.org/simple" }
@@ -1180,11 +1269,18 @@ wheels = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 =======
 =======
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 name = "matplotlib-inline"
 version = "0.2.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1274,6 +1370,10 @@ name = "neuroscience-python-tutor"
 version = "0.1.0"
 source = { virtual = "python_tutor" }
 dependencies = [
+<<<<<<< HEAD
+=======
+    { name = "google-api-core" },
+>>>>>>> c6a8249 (created functional rag agent python tutor)
     { name = "google-genai" },
     { name = "matplotlib" },
     { name = "pandas" },
@@ -1284,6 +1384,10 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+<<<<<<< HEAD
+=======
+    { name = "google-api-core", specifier = ">=2.29.0" },
+>>>>>>> c6a8249 (created functional rag agent python tutor)
     { name = "google-genai", specifier = ">=0.3.0" },
     { name = "matplotlib", specifier = ">=3.8.0" },
     { name = "pandas", specifier = ">=2.1.0" },
@@ -1313,9 +1417,13 @@ wheels = [
 >>>>>>> fbd2f27 (Adding outstanding files from class Jan 27th)
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 15c76f8 (Adding outstanding files from class Jan 27th)
 =======
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 name = "numpy"
 version = "2.4.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1371,10 +1479,17 @@ name = "packaging"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 version = "25.0"
 =======
 version = "26.0"
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+version = "25.0"
+=======
+version = "26.0"
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/65/ee/299d360cdc32edc7d2cf530f3accf79c4fca01e96ffc950d8a52213bd8e4/packaging-26.0.tar.gz", hash = "sha256:00243ae351a257117b6a241061796684b084ed1c516a08c48a3f7e147a9d80b4", size = 143416, upload-time = "2026-01-21T20:50:39.064Z" }
 wheels = [
@@ -1404,11 +1519,16 @@ wheels = [
 >>>>>>> fbd2f27 (Adding outstanding files from class Jan 27th)
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
     { url = "https://files.pythonhosted.org/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl", hash = "sha256:29572ef2b1f17581046b3a2227d5c611fb25ec70ca1ba8554b24b0e69331a484", size = 66469, upload-time = "2025-04-19T11:48:57.875Z" },
 >>>>>>> 15c76f8 (Adding outstanding files from class Jan 27th)
 =======
     { url = "https://files.pythonhosted.org/packages/b7/b9/c538f279a4e237a006a2c98387d081e9eb060d203d8ed34467cc0f0b9b53/packaging-26.0-py3-none-any.whl", hash = "sha256:b36f1fef9334a5588b4166f8bcd26a14e521f2b55e6b9de3aaa80d3ff7a37529", size = 74366, upload-time = "2026-01-21T20:50:37.788Z" },
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+    { url = "https://files.pythonhosted.org/packages/b7/b9/c538f279a4e237a006a2c98387d081e9eb060d203d8ed34467cc0f0b9b53/packaging-26.0-py3-none-any.whl", hash = "sha256:b36f1fef9334a5588b4166f8bcd26a14e521f2b55e6b9de3aaa80d3ff7a37529", size = 74366, upload-time = "2026-01-21T20:50:37.788Z" },
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 ]
 
 [[package]]
@@ -1417,6 +1537,9 @@ name = "pandas"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 version = "2.3.3"
 =======
 version = "3.0.0"
@@ -1428,11 +1551,16 @@ version = "2.3.3"
 >>>>>>> fbd2f27 (Adding outstanding files from class Jan 27th)
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 version = "2.3.3"
 >>>>>>> 15c76f8 (Adding outstanding files from class Jan 27th)
 =======
 version = "3.0.0"
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+version = "3.0.0"
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "numpy" },
@@ -1441,11 +1569,18 @@ dependencies = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
     { name = "pytz" },
     { name = "tzdata" },
 =======
     { name = "tzdata", marker = "sys_platform == 'emscripten' or sys_platform == 'win32'" },
+<<<<<<< HEAD
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/de/da/b1dc0481ab8d55d0f46e343cfe67d4551a0e14fcee52bd38ca1bd73258d8/pandas-3.0.0.tar.gz", hash = "sha256:0facf7e87d38f721f0af46fe70d97373a37701b1c09f7ed7aeeb292ade5c050f", size = 4633005, upload-time = "2026-01-21T15:52:04.726Z" }
 wheels = [
@@ -1488,8 +1623,13 @@ wheels = [
 sdist = { url = "https://files.pythonhosted.org/packages/33/01/d40b85317f86cf08d853a4f495195c73815fdf205eef3993821720274518/pandas-2.3.3.tar.gz", hash = "sha256:e05e1af93b977f7eafa636d043f9f94c7ee3ac81af99c13508215942e64c993b", size = 4495223, upload-time = "2025-09-29T23:34:51.853Z" }
 wheels = [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
     { url = "https://files.pythonhosted.org/packages/6f/fa/7f0ac4ca8877c57537aaff2a842f8760e630d8e824b730eb2e859ffe96ca/pandas-3.0.0-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:b78d646249b9a2bc191040988c7bb524c92fa8534fb0898a0741d7e6f2ffafa6", size = 10307129, upload-time = "2026-01-21T15:50:52.877Z" },
     { url = "https://files.pythonhosted.org/packages/6f/11/28a221815dcea4c0c9414dfc845e34a84a6a7dabc6da3194498ed5ba4361/pandas-3.0.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:bc9cba7b355cb4162442a88ce495e01cb605f17ac1e27d6596ac963504e0305f", size = 9850201, upload-time = "2026-01-21T15:50:54.807Z" },
     { url = "https://files.pythonhosted.org/packages/ba/da/53bbc8c5363b7e5bd10f9ae59ab250fc7a382ea6ba08e4d06d8694370354/pandas-3.0.0-cp313-cp313-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:3c9a1a149aed3b6c9bf246033ff91e1b02d529546c5d6fb6b74a28fea0cf4c70", size = 10354031, upload-time = "2026-01-21T15:50:57.463Z" },
@@ -1593,9 +1733,13 @@ wheels = [
 >>>>>>> fbd2f27 (Adding outstanding files from class Jan 27th)
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 15c76f8 (Adding outstanding files from class Jan 27th)
 =======
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 ]
 
 [[package]]
@@ -1661,11 +1805,18 @@ wheels = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 =======
 =======
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 name = "platformdirs"
 version = "4.5.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1683,9 +1834,13 @@ wheels = [
 >>>>>>> fbd2f27 (Adding outstanding files from class Jan 27th)
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 15c76f8 (Adding outstanding files from class Jan 27th)
 =======
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 name = "programmingforresearchinneuroscience2026"
 version = "0.1.0"
 source = { virtual = "." }
@@ -1694,6 +1849,9 @@ dependencies = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
     { name = "matplotlib" },
     { name = "numpy" },
     { name = "pandas" },
@@ -1720,11 +1878,14 @@ dependencies = [
 >>>>>>> fbd2f27 (Adding outstanding files from class Jan 27th)
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
     { name = "matplotlib" },
     { name = "numpy" },
     { name = "pandas" },
 >>>>>>> 15c76f8 (Adding outstanding files from class Jan 27th)
 =======
+=======
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
     { name = "datetime" },
     { name = "google-genai" },
     { name = "ipykernel" },
@@ -1735,7 +1896,11 @@ dependencies = [
     { name = "pandas" },
     { name = "python-dotenv" },
     { name = "seaborn" },
+<<<<<<< HEAD
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 ]
 
 [package.metadata]
@@ -1744,6 +1909,9 @@ requires-dist = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
     { name = "matplotlib", specifier = ">=3.10.8" },
     { name = "numpy", specifier = ">=2.4.1" },
     { name = "pandas", specifier = ">=2.3.3" },
@@ -1767,7 +1935,11 @@ requires-dist = [
     { name = "matplotlib", specifier = ">=3.10.8" },
     { name = "numpy", specifier = ">=2.4.1" },
     { name = "pandas", specifier = ">=2.3.3" },
+<<<<<<< HEAD
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
     { name = "python-dotenv", specifier = ">=1.2.1" },
     { name = "seaborn", specifier = ">=0.13.2" },
 ]
@@ -1794,6 +1966,36 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
+=======
+name = "proto-plus"
+version = "1.27.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "protobuf" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/3a/02/8832cde80e7380c600fbf55090b6ab7b62bd6825dbedde6d6657c15a1f8e/proto_plus-1.27.1.tar.gz", hash = "sha256:912a7460446625b792f6448bade9e55cd4e41e6ac10e27009ef71a7f317fa147", size = 56929, upload-time = "2026-02-02T17:34:49.035Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/5d/79/ac273cbbf744691821a9cca88957257f41afe271637794975ca090b9588b/proto_plus-1.27.1-py3-none-any.whl", hash = "sha256:e4643061f3a4d0de092d62aa4ad09fa4756b2cbb89d4627f3985018216f9fefc", size = 50480, upload-time = "2026-02-02T17:34:47.339Z" },
+]
+
+[[package]]
+name = "protobuf"
+version = "6.33.5"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/ba/25/7c72c307aafc96fa87062aa6291d9f7c94836e43214d43722e86037aac02/protobuf-6.33.5.tar.gz", hash = "sha256:6ddcac2a081f8b7b9642c09406bc6a4290128fce5f471cddd165960bb9119e5c", size = 444465, upload-time = "2026-01-29T21:51:33.494Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b1/79/af92d0a8369732b027e6d6084251dd8e782c685c72da161bd4a2e00fbabb/protobuf-6.33.5-cp310-abi3-win32.whl", hash = "sha256:d71b040839446bac0f4d162e758bea99c8251161dae9d0983a3b88dee345153b", size = 425769, upload-time = "2026-01-29T21:51:21.751Z" },
+    { url = "https://files.pythonhosted.org/packages/55/75/bb9bc917d10e9ee13dee8607eb9ab963b7cf8be607c46e7862c748aa2af7/protobuf-6.33.5-cp310-abi3-win_amd64.whl", hash = "sha256:3093804752167bcab3998bec9f1048baae6e29505adaf1afd14a37bddede533c", size = 437118, upload-time = "2026-01-29T21:51:24.022Z" },
+    { url = "https://files.pythonhosted.org/packages/a2/6b/e48dfc1191bc5b52950246275bf4089773e91cb5ba3592621723cdddca62/protobuf-6.33.5-cp39-abi3-macosx_10_9_universal2.whl", hash = "sha256:a5cb85982d95d906df1e2210e58f8e4f1e3cdc088e52c921a041f9c9a0386de5", size = 427766, upload-time = "2026-01-29T21:51:25.413Z" },
+    { url = "https://files.pythonhosted.org/packages/4e/b1/c79468184310de09d75095ed1314b839eb2f72df71097db9d1404a1b2717/protobuf-6.33.5-cp39-abi3-manylinux2014_aarch64.whl", hash = "sha256:9b71e0281f36f179d00cbcb119cb19dec4d14a81393e5ea220f64b286173e190", size = 324638, upload-time = "2026-01-29T21:51:26.423Z" },
+    { url = "https://files.pythonhosted.org/packages/c5/f5/65d838092fd01c44d16037953fd4c2cc851e783de9b8f02b27ec4ffd906f/protobuf-6.33.5-cp39-abi3-manylinux2014_s390x.whl", hash = "sha256:8afa18e1d6d20af15b417e728e9f60f3aa108ee76f23c3b2c07a2c3b546d3afd", size = 339411, upload-time = "2026-01-29T21:51:27.446Z" },
+    { url = "https://files.pythonhosted.org/packages/9b/53/a9443aa3ca9ba8724fdfa02dd1887c1bcd8e89556b715cfbacca6b63dbec/protobuf-6.33.5-cp39-abi3-manylinux2014_x86_64.whl", hash = "sha256:cbf16ba3350fb7b889fca858fb215967792dc125b35c7976ca4818bee3521cf0", size = 323465, upload-time = "2026-01-29T21:51:28.925Z" },
+    { url = "https://files.pythonhosted.org/packages/57/bf/2086963c69bdac3d7cff1cc7ff79b8ce5ea0bec6797a017e1be338a46248/protobuf-6.33.5-py3-none-any.whl", hash = "sha256:69915a973dd0f60f31a08b8318b73eab2bd6a392c79184b3612226b0a3f8ec02", size = 170687, upload-time = "2026-01-29T21:51:32.557Z" },
+]
+
+[[package]]
+>>>>>>> c6a8249 (created functional rag agent python tutor)
 name = "psutil"
 version = "7.2.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1955,12 +2157,16 @@ wheels = [
 >>>>>>> fbd2f27 (Adding outstanding files from class Jan 27th)
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
     { name = "matplotlib", specifier = ">=3.10.8" },
     { name = "numpy", specifier = ">=2.4.1" },
     { name = "pandas", specifier = ">=2.3.3" },
 >>>>>>> 15c76f8 (Adding outstanding files from class Jan 27th)
 =======
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 ]
 
 [[package]]
@@ -1969,10 +2175,17 @@ name = "pyparsing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 version = "3.3.1"
 =======
 version = "3.3.2"
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+version = "3.3.1"
+=======
+version = "3.3.2"
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/f3/91/9c6ee907786a473bf81c5f53cf703ba0957b23ab84c264080fb5a450416f/pyparsing-3.3.2.tar.gz", hash = "sha256:c777f4d763f140633dcb6d8a3eda953bf7a214dc4eff598413c070bcdc117cbc", size = 6851574, upload-time = "2026-01-21T03:57:59.36Z" }
 wheels = [
@@ -2002,11 +2215,16 @@ wheels = [
 >>>>>>> fbd2f27 (Adding outstanding files from class Jan 27th)
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
     { url = "https://files.pythonhosted.org/packages/8b/40/2614036cdd416452f5bf98ec037f38a1afb17f327cb8e6b652d4729e0af8/pyparsing-3.3.1-py3-none-any.whl", hash = "sha256:023b5e7e5520ad96642e2c6db4cb683d3970bd640cdf7115049a6e9c3682df82", size = 121793, upload-time = "2025-12-23T03:14:02.103Z" },
 >>>>>>> 15c76f8 (Adding outstanding files from class Jan 27th)
 =======
     { url = "https://files.pythonhosted.org/packages/10/bd/c038d7cc38edc1aa5bf91ab8068b63d4308c66c4c8bb3cbba7dfbc049f9c/pyparsing-3.3.2-py3-none-any.whl", hash = "sha256:850ba148bd908d7e2411587e247a1e4f0327839c40e2e5e6d05a007ecc69911d", size = 122781, upload-time = "2026-01-21T03:57:55.912Z" },
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+    { url = "https://files.pythonhosted.org/packages/10/bd/c038d7cc38edc1aa5bf91ab8068b63d4308c66c4c8bb3cbba7dfbc049f9c/pyparsing-3.3.2-py3-none-any.whl", hash = "sha256:850ba148bd908d7e2411587e247a1e4f0327839c40e2e5e6d05a007ecc69911d", size = 122781, upload-time = "2026-01-21T03:57:55.912Z" },
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 ]
 
 [[package]]
@@ -2026,11 +2244,18 @@ wheels = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 =======
 =======
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 name = "python-dotenv"
 version = "1.2.1"
 source = { registry = "https://pypi.org/simple" }
@@ -2057,9 +2282,13 @@ wheels = [
 >>>>>>> fbd2f27 (Adding outstanding files from class Jan 27th)
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 15c76f8 (Adding outstanding files from class Jan 27th)
 =======
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 name = "pytz"
 version = "2025.2"
 source = { registry = "https://pypi.org/simple" }
@@ -2073,11 +2302,18 @@ wheels = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 =======
 =======
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 name = "pywinpty"
 version = "3.0.2"
 source = { registry = "https://pypi.org/simple" }
@@ -2348,9 +2584,13 @@ wheels = [
 >>>>>>> fbd2f27 (Adding outstanding files from class Jan 27th)
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 15c76f8 (Adding outstanding files from class Jan 27th)
 =======
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 name = "six"
 version = "1.17.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2364,11 +2604,18 @@ wheels = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 =======
 =======
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 name = "sniffio"
 version = "1.3.1"
 source = { registry = "https://pypi.org/simple" }
@@ -2493,9 +2740,13 @@ wheels = [
 >>>>>>> fbd2f27 (Adding outstanding files from class Jan 27th)
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 15c76f8 (Adding outstanding files from class Jan 27th)
 =======
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 name = "tzdata"
 version = "2025.3"
 source = { registry = "https://pypi.org/simple" }
@@ -2507,11 +2758,18 @@ wheels = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 =======
 =======
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 
 [[package]]
 name = "uri-template"
@@ -2614,6 +2872,10 @@ wheels = [
 >>>>>>> fbd2f27 (Adding outstanding files from class Jan 27th)
 >>>>>>> 1c692cd (Week 3 Exercise updated Jan 28th)
 =======
+<<<<<<< HEAD
 >>>>>>> 15c76f8 (Adding outstanding files from class Jan 27th)
 =======
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)

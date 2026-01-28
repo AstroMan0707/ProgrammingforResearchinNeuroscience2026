@@ -6,7 +6,11 @@ import matplotlib.dates as mdates
 =======
 >>>>>>> bbf1a83 (created functional rag agent python tutor)
 =======
+<<<<<<< HEAD
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 import seaborn as sns
 import json
 import re
@@ -17,7 +21,11 @@ from collections import Counter
 import datetime
 =======
 import date
+<<<<<<< HEAD
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 
 # Use a clean, professional style for colleagues
 sns.set_theme(style="whitegrid", context="talk")
@@ -43,7 +51,11 @@ TARGET_KEYWORDS = ["tuple", "unpacking", "list", "class", "function", "scope", "
 >>>>>>> bbf1a83 (created functional rag agent python tutor)
 =======
 TARGET_KEYWORDS = ["tuple", "unpacking", "list", "class", "function", "scope", "decorator"]
+<<<<<<< HEAD
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 
 def generate_visualizations(file_path: str = "query_history.jsonl"):
     path = Path(file_path)
@@ -65,7 +77,11 @@ def generate_visualizations(file_path: str = "query_history.jsonl"):
         return
 
     # 1. Load Data
+<<<<<<< HEAD
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
     data = []
     with open(path, 'r') as f:
         for line in f:
@@ -83,7 +99,11 @@ def generate_visualizations(file_path: str = "query_history.jsonl"):
     daily_engagement.columns = ['date', 'total_minutes']
 =======
     df['date'] = df['timestamp'].dt.date
+<<<<<<< HEAD
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
 
     # Create the figure with two subplots
     fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(12, 14))
@@ -168,7 +188,11 @@ def generate_visualizations(file_path: str = "query_history.jsonl"):
 >>>>>>> bbf1a83 (created functional rag agent python tutor)
 =======
     print(f"✅ High-quality report saved as: {output_name}")
+<<<<<<< HEAD
 >>>>>>> 80cb1b4 (created functional rag agent python tutor)
+=======
+>>>>>>> c6a8249 (created functional rag agent python tutor)
+>>>>>>> 46cbb68 (created functional rag agent python tutor)
     plt.show()
 
 if __name__ == "__main__":

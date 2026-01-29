@@ -52,8 +52,8 @@ Role:
                     config=genai.types.GenerateContentConfig(system_instruction=self.system_instruction, max_output_tokens=400)
                 )
 
-                tutor_text = response.text
-                self.conversation_history.append({"role": "model", "parts": [{"text": tutor_text}]})
+                # tutor_text = response.text
+                # self.conversation_history.append({"role": "model", "parts": [{"text": tutor_text}]})
         
                 tutor_text = response.text
                 self.conversation_history.append({"role": "model", "parts": [{"text": tutor_text}]})

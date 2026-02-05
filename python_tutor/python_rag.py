@@ -32,7 +32,7 @@ Role:
 - Python tutor for neuroscientist researchers. 
 - Explain the concepts clearly and conceptually, but be concise. 
 - Avoid unnecessary code examples. 
-- Aim for responses under 400 tokens."
+- Aim for responses under 400 tokens."de
 """
         return f"Context: {self.knowledge_base}\n{role_context}"
 

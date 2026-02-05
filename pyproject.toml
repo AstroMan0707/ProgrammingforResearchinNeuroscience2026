@@ -6,6 +6,8 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "datetime>=6.0",
+    "dotenv>=0.9.9",
+    "google-api-core>=2.29.0",
     "google-genai>=1.60.0",
     "ipykernel>=7.1.0",
     "ipython>=9.9.0",
